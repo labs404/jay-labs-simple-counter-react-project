@@ -8,11 +8,11 @@ const Home = ({counter}) => {
 		<>
 			<SimpleCounter 
 			onesDigit={calculateSeconds(counter, 1)}
-			tensDigitDigit={calculateSeconds(counter, 10)}
-			hundredsDigitDigit={calculateSeconds(counter, 100)}
-			thousandsDigitDigit={calculateSeconds(counter, 1000)}
-			tenThousandsDigitDigit={calculateSeconds(counter, 10000)}
-			hundredThousandsDigitDigit={calculateSeconds(counter, 100000)}
+			tensDigit={calculateSeconds(counter, 10)}
+			hundredsDigit={calculateSeconds(counter, 100)}
+			thousandsDigit={calculateSeconds(counter, 1000)}
+			tenThousandsDigit={calculateSeconds(counter, 10000)}
+			hundredThousandsDigit={calculateSeconds(counter, 100000)}
 			/>
 		</>
 	);

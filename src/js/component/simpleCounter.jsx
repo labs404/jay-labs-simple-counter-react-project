@@ -12,11 +12,11 @@ const SimpleCounter = (props) => {
                         <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
                     </svg>
                 </div>
-                <div className="seconds hundred-thousands">{props.hundredThousandsDigitDigit}</div>
-                <div className="seconds ten-thousands">{props.tenThousandsDigitDigit}</div>
-                <div className="seconds thousands">{props.thousandsDigitDigit}</div>
-                <div className="seconds hundreds">{props.hundredsDigitDigit}</div>
-                <div className="seconds tens">{props.tensDigitDigit}</div>
+                <div className="seconds hundred-thousands">{props.hundredThousandsDigit}</div>
+                <div className="seconds ten-thousands">{props.tenThousandsDigit}</div>
+                <div className="seconds thousands">{props.thousandsDigit}</div>
+                <div className="seconds hundreds">{props.hundredsDigit}</div>
+                <div className="seconds tens">{props.tensDigit}</div>
                 <div className="seconds ones">{props.onesDigit}</div>
             </div>
 		</>
