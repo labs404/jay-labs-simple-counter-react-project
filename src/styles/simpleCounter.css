@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@200&family=Victor+Mono:wght@500&display=swap');
+
+.counter-display {
+    text-align: center;
+    margin: 100px 0px;
+    padding: 0px;
+}
+
+.counter-display div {
+    display: inline-block;
+    background-color: #000000;
+    font-size: 5rem;
+    color: #777710;
+    font-weight: 400;
+    font-family: 'Handjet', cursive;
+    height: 8rem;
+    width: 5rem;
+    padding: 0px;
+    margin: .25rem;
+    border: solid 3px #333333 !important;
+    border-radius: 10px;
+}
+
+.bi-clock {
+    height: 3.5rem;
+    width: 3.5rem;
+    padding-bottom: 1rem;
+}
