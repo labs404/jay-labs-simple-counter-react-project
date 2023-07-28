@@ -1,3 +1,5 @@
-# Simple Counter App
+# Simple Counter with React Project
 
-## View the app live at [vercel link here]
+## View this app live! 
+
+Please [click here](https://jay-labs-simple-counter-react-project.vercel.app/) to view the app on Vercel.
